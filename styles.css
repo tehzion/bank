@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+#actionButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 80%;
+    background-color: #ddd;
+    margin: 20px auto;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+#progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.5s;
+}
+
+#visualDisplay {
+    display: none;
+    margin-top: 30px;
+}
+
+#introVideo {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: none;
+}
